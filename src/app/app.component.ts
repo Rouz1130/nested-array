@@ -8,27 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ngfor-angular';
   dataList: any[];
-  dataLists: any[];
   constructor() {
     this.dataList = [
-      {
-        'FirstName' : 'Roy',
-        'LastName'  : 'Agasthyan'
-      },
-      {
-        'FirstName' : 'Sam',
-        'LastName'  : 'Johnson'
-      },
-      {
-        'FirstName' : 'Anjali',
-        'LastName'  : 'Sharma'
-      },
-      {
-        'FirstName' : 'Julia',
-        'LastName'  : 'Sherwood'
-      }
-    ];
-    this.dataLists = [
       {
         'Employee' : {
           'Name' : {
